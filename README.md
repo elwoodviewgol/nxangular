@@ -11,11 +11,35 @@ Baseline NX workspace for an Angular project.
 ---  
   
 ## Overview  
+  
+### Prerequisites  
+  
+**Install Nx** (v12.8.0) with NPM  
+```  
+$ npm install -g nx
+```  
+  
 
 ## Getting Started  
+  
+**Setup a New Nx Workspace** with an Angular app in it.   
+1. This will be a project for creating various reports.  
+2. Intialize a singular Angular application titled "Adjustment Inspection".  
+3. Default to using [SASS](http://sass-lang.com) for the stylesheet.  
+4. Use ESLint for default linter.    
+5. Deline Cloud service(s)
 ```  
-$ npx create-nx-workspace stores --preset=angular  
+$ npx create-nx-workspace reports --preset=angular  
+  
+? Application Name: adjustment-inspection  
+  
+? Default Stylesheet Format: SASS(.scss)  
+  
+? Default Linter: ESLint  
+  
+? Use Nx Cloud? No  
 ```  
+ 
 
 ## References  
   
