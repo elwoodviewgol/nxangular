@@ -16,6 +16,8 @@ Baseline NX workspace for an Angular project.
   
 ## Overview  
   
+NX allows you to build design systems. Collections of re-useable components and standards. This promotes consistancy between team members and projects.  
+
 ### Prerequisites  
   
 **Install Nx** (v12.8.0) with NPM  
@@ -60,6 +62,33 @@ $ npx ng generate lib header --style=scss
 ```  
 $ npx ng generate component components/reportHeader --project=header  
 ```  
+  
+**NG BUILD**  
+```
+$ ng run adjustment-inspection:build
+``` 
+  
+## Storybook  
+   
+**Generate** a component inside the header for our project.  
+```  
+$ npx ng generate storybook-configuration header  
+  
+? Configure a cypress e2e app to run against the storybook instance? Yes    
+? Automatically generate *.stories.ts files for components declared in this project?  Yes  
+? Automatically generate *.spec.ts files in the generated Cypress e2e app? Yes  
+
+```  
+
+ 
+  
+**Run** in Storybook.  
+```  
+$ npx ng run header:storybook  
+
+```  
+  
+
 
 ## ESLinting  
 ## Jest   
