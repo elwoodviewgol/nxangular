@@ -33,6 +33,9 @@
     "adjustment-inspection-e2e": {
       "tags": [],
       "implicitDependencies": ["adjustment-inspection"]
+    },
+    "header": {
+      "tags": []
     }
   }
 }

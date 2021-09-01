@@ -37,6 +37,7 @@
     "@nrwl/eslint-plugin-nx": "12.8.0",
     "@nrwl/jest": "12.8.0",
     "@nrwl/linter": "12.8.0",
+    "@nrwl/storybook": "^12.8.0",
     "@nrwl/tao": "12.8.0",
     "@nrwl/workspace": "12.8.0",
     "@types/jest": "26.0.24",

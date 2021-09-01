@@ -6,6 +6,7 @@ Baseline NX workspace for an Angular project.
 **Table Of Contents**  
 1. [Overview](#overview)  
 1. [Getting Started](#getting-started)  
+1. [Libraries](#libraries)
 1. [ESLinting](#)  
 1. [Jest](#)  
 1. [Cypress](#)  
@@ -22,6 +23,10 @@ Baseline NX workspace for an Angular project.
 $ npm install -g nx
 ```  
   
+Install NRWL's **Storybook** schematics 
+```  
+$ npm i -D @nrwl/storybook
+```  
 
 ## Getting Started  
   
@@ -42,8 +47,19 @@ $ npx create-nx-workspace reports --preset=angular
   
 ? Use Nx Cloud? No  
 ```  
- 
   
+## Libraries  
+A re-useable well encapsulated piece of functionality.  
+  
+**Generate** a header for our project.  
+```  
+$ npx ng generate lib header --style=scss  
+```  
+  
+**Generate** a component inside the header for our project.  
+```  
+$ npx ng generate component components/reportHeader --project=header  
+```  
 
 ## ESLinting  
 ## Jest   
@@ -61,7 +77,8 @@ $ npx ng e2e adjustment-inspection-e2e --watch
 1. [NX](https://nx.dev/)
 1. [NX : ANGULAR](https://nx.dev/angular)
 1. [Youtube: NRWL](https://www.youtube.com/channel/UCF8luR7ORJTCwSNA9yZksCw)
-
+1. [NPM: STORYBOOK](https://www.npmjs.com/package/@nrwl/storybook)  
+  
 **ESLinting**  
 1. [ESLint](https://eslint.org/) statically analyzes your code to quickly find problems.  
   
